@@ -1,3 +1,43 @@
+
+
+[Navigation]
+
+pwd    Print working directory
+
+cd     Change directory
+         cd usr          #go to usr
+         cd 'my data' 
+         cd ..           #go up
+         cd ../bin
+         cd ~            #go home
+
+ls     List files and directories
+         ls              
+         ls -l           #list in details
+         ls -a           #list all include hidden
+
+
+[Folders]
+
+mkdir   Create a directory
+         mkdir new_folder    #create new folder
+
+rmdir   Remove an empty directory
+         rmdir empty_folder_name
+
+rm -rf directory_name    Deletes a Directory, including all files and subdirectories.
+                           rm -rf folder_name
+
+
+[Files]
+
+touch    Create a new file
+          touch new_file
+
+cp    Copy a file
+       cp file_name new_file_name
+
+------------------------------------------------------------------
 Here is a cheat sheet of some of the most common command line commands:
 
 **Navigation**
