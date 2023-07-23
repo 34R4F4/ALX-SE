@@ -1,0 +1,42 @@
+Here is a cheat sheet of some of the most common command line commands:
+
+**Navigation**
+
+* `cd` - Change directory
+* `pwd` - Print working directory
+* `ls` - List files and directories
+* `ls -a` - List all files and directories, including hidden files
+* `cd ..` - Go up one directory
+* `cd ~` - Go to your home directory
+
+**File management**
+
+* `mkdir` - Create a directory
+* `rmdir` - Remove an empty directory
+* `touch` - Create a new file
+* `cat` - Display the contents of a file
+* `cp` - Copy a file
+* `mv` - Move or rename a file
+* `rm` - Delete a file
+
+**Processes**
+
+* `ps` - List all running processes
+* `kill` - Kill a process
+* `top` - Display a real-time list of running processes
+
+**Other**
+
+* `help` - Display help for a command
+* `man` - Display the manual page for a command
+* `exit` - Exit the command line
+
+Here are some additional tips for using the command line:
+
+* Use tab completion to auto-complete file and directory names.
+* Use the `|` (pipe) character to chain commands together.
+* Use the `&&` (and) and `||` (or) operators to combine commands.
+* Use the `grep` command to search for text in files.
+* Use the `find` command to find files based on their attributes.
+
+I hope this cheat sheet helps you get started with the command line!
