@@ -37,6 +37,19 @@ touch    Create a new file
 cp    Copy a file
        cp file_name new_file_name
 
+mv    Move or rename a file
+       mv file_name ../folders/new_folder      #move file_name, destination_path
+       mv file_name new_file_name              #rename    crrent, new
+
+rm    Delete a file
+       rm file_name
+
+[text]
+
+
+
+
+
 ------------------------------------------------------------------
 Here is a cheat sheet of some of the most common command line commands:
 
