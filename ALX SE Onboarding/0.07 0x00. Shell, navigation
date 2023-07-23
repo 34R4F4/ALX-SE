@@ -1,0 +1,35 @@
+
+
+ Sandbox Ubuntu 20.04.
+
+
+https://intranet.alxswe.com/rltoken/wpsA1kZvIz5_aVkvXuKN5Q    Linux navigation
+https://intranet.alxswe.com/rltoken/q1dtRMnA99cyFF4ALjoX_w    Linux - looking around
+https://intranet.alxswe.com/rltoken/t97eLJ6U-HwjZTe4QfxKdw    Linux - manipulating files
+
+https://intranet.alxswe.com/rltoken/czGvASt_M8PW05Ubdp8EBw    Linux - /tmp
+
+ pwd
+Print the name of the current working directory.
+    Options:
+      -L	[default] print the value of $PWD if it names the current workingdirectory
+      -P	print the physical directory, without any symbolic links
+
+ ls
+list directory contents.
+
+ cd
+Change the shell working directory.
+Options:
+      -L	[default] force symbolic links to be followed: resolve symbolic links in DIR after processing instances of `..'
+      -P	use the physical directory structure without following symbolic links: resolve symbolic links in DIR before processing instances of `..'
+      -e	if the -P option is supplied, and the current working directory cannot be determined successfully, exit with a non-zero status
+      -@	on systems that support it, present a file with extended attributes as a directory containing the file attributes
+
+ less
+ touch
+ cp
+ mv
+ rm
+ mkdir
+ rmdir
