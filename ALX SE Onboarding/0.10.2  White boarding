@@ -1,0 +1,19 @@
+
+
+*Problem Solving
+
+- Step 1: Understand and Analyze the Problem
+  [Input]--->(Process)--->[Output]
+
+- Step 2: Go Through The Sample Data And Examples Thoroughly
+tray many inputs  and analyze the output
+breake down big problem to subproblems
+
+- Step 4: Write Pseudocode, make a flowchart
+Make a flow chart for the problem at hand.
+
+- Step 5: Replace Pseudocode With Real Code
+While writing the code keep in mind three things:
+  -The point where you started.
+  -Where are you right now? 
+  -What is your destination (end result)?
