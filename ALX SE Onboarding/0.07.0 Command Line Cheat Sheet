@@ -29,6 +29,8 @@ rm -rf directory_name    Deletes a Directory, including all files and subdirecto
                            rm -rf folder_name
 
 
+------------------------------------------------------------------
+
 [Files]
 
 touch    Create a new file
@@ -43,6 +45,9 @@ mv    Move or rename a file
 
 rm    Delete a file
        rm file_name
+
+
+------------------------------------------------------------------
 
 [text]
 
@@ -71,6 +76,8 @@ uniq    removes duplicate lines from a file.
          uniq file_name
 
 
+------------------------------------------------------------------
+
 [Processes]
 
 ps    List all running processes
@@ -82,6 +89,9 @@ kill    Kill a process
 
 top    Display a real-time list of running processes
 
+
+
+------------------------------------------------------------------
 
 [Network commands]
 
@@ -98,47 +108,21 @@ arp                    shows a table with IP addresses converted into physical a
 netstat                displays network connections and statistics.
 
 
+------------------------------------------------------------------
 
+[Other commands]
 
-
-
+* `help` - Display help for a command
+* `exit` - Exit the command line
+* `man command_name` - displays the manual page for a command.
+* `history` - displays a list of all past commands typed in the current terminal session.
+* `clear` - clears the terminal screen.
+* `sudo command_name` - executes a command with root privileges.
 
 
 ------------------------------------------------------------------
-Here is a cheat sheet of some of the most common command line commands:
 
-**Navigation**
-
-* `cd` - Change directory
-* `pwd` - Print working directory
-* `ls` - List files and directories
-* `ls -a` - List all files and directories, including hidden files
-* `cd ..` - Go up one directory
-* `cd ~` - Go to your home directory
-
-**File management**
-
-* `mkdir` - Create a directory
-* `rmdir` - Remove an empty directory
-* `touch` - Create a new file
-* `cat` - Display the contents of a file
-* `cp` - Copy a file
-* `mv` - Move or rename a file
-* `rm` - Delete a file
-
-**Processes**
-
-* `ps` - List all running processes
-* `kill` - Kill a process
-* `top` - Display a real-time list of running processes
-
-**Other**
-
-* `help` - Display help for a command
-* `man` - Display the manual page for a command
-* `exit` - Exit the command line
-
-Here are some additional tips for using the command line:
+[Tips]
 
 * Use tab completion to auto-complete file and directory names.
 * Use the `|` (pipe) character to chain commands together.
@@ -146,107 +130,11 @@ Here are some additional tips for using the command line:
 * Use the `grep` command to search for text in files.
 * Use the `find` command to find files based on their attributes.
 
-I hope this cheat sheet helps you get started with the command line!
+------------------------------------------------------------------
 
-===========================================================================
-
-
-here is a command line cheat sheet with examples:
-
-**File and directory management**
-
-* `ls` - lists the files and directories in the current directory.
-* `ls -a` - lists all files and directories, including hidden files.
-* `ls -l` - lists all files and directories with detailed information, such as permissions, size, owner, etc.
-* `cd` - changes the current directory.
-* `cd ..` - moves up one directory level.
-* `cd ~` - moves to the home directory.
-* `mkdir directory_name` - creates a new directory.
-* `rmdir directory_name` - deletes an empty directory.
-* `rm -rf directory_name` - deletes a directory, including all files and subdirectories.
-* `cp file_name new_file_name` - copies a file.
-* `mv file_name new_file_name` - moves a file.
-* `cat file_name` - displays the contents of a file.
-* `less file_name` - displays the contents of a file one page at a time.
-* `grep search_string file_name` - searches for a string in a file.
-
-**Network commands**
-
-* `ping host_name` - sends ICMP requests to the host name and checks its availability.
-* `tracert host_name` - traces the path for packets traveling to the host name.
-* `nslookup host_name` - finds the IP address of the host name.
-* `route` - displays the network route tables.
-* `arp` - shows a table with IP addresses converted into physical addresses.
-* `netstat` - displays network connections and statistics.
-
-**Other commands**
-
-* `man command_name` - displays the manual page for a command.
-* `history` - displays a list of all past commands typed in the current terminal session.
-* `clear` - clears the terminal screen.
-* `sudo command_name` - executes a command with root privileges.
-* `exit` - quits the command line.
-
-Here are some additional tips for using the command line:
-
-* Use the tab key to autocomplete commands and filenames.
-* Use the `?` character to get help on a command.
-* Use the `|` character to pipe the output of one command to another command.
-* Use the `&&` and `||` characters to run commands conditionally.
-
-===========================================================================
-
-
-
-
-
-Sure, here is a command line cheat sheet with examples:
-
-**File and directory management**
-
-* `ls` - lists the files and directories in the current directory.
-* `ls -a` - lists all files and directories, including hidden files.
-* `ls -l` - lists all files and directories with detailed information, such as permissions, size, owner, etc.
-* `cd` - changes the current directory.
-* `cd ..` - moves up one directory level.
-* `cd ~` - moves to the home directory.
-* `mkdir directory_name` - creates a new directory.
-* `rmdir directory_name` - deletes an empty directory.
-* `rm -rf directory_name` - deletes a directory, including all files and subdirectories.
-* `cp file_name new_file_name` - copies a file.
-* `mv file_name new_file_name` - moves a file.
-* `cat file_name` - displays the contents of a file.
-* `less file_name` - displays the contents of a file one page at a time.
-* `grep search_string file_name` - searches for a string in a file.
-
-**Network commands**
-
-* `ping host_name` - sends ICMP requests to the host name and checks its availability.
-* `tracert host_name` - traces the path for packets traveling to the host name.
-* `nslookup host_name` - finds the IP address of the host name.
-* `route` - displays the network route tables.
-* `arp` - shows a table with IP addresses converted into physical addresses.
-* `netstat` - displays network connections and statistics.
-
-**Other commands**
-
-* `man command_name` - displays the manual page for a command.
-* `history` - displays a list of all past commands typed in the current terminal session.
-* `clear` - clears the terminal screen.
-* `sudo command_name` - executes a command with root privileges.
-* `exit` - quits the command line.
-
-Here are some additional tips for using the command line:
-
-* Use the tab key to autocomplete commands and filenames.
-* Use the `?` character to get help on a command.
-* Use the `|` character to pipe the output of one command to another command.
-* Use the `&&` and `||` characters to run commands conditionally.
-
-I hope this helps!
-
-
-
-
-
+    *******************************
+    *         Arafa Khalaf        *
+    *    khalafarafa@gmail.com    *
+    *        +20 1125415685       *
+    *******************************
 
