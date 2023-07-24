@@ -46,6 +46,60 @@ rm    Delete a file
 
 [text]
 
+cat    Display the contents of a file
+        cat file_name
+
+less file_name    displays the contents of a file one page at a time.
+                   less file_name
+
+grep    searches for a string in a file.
+         grep search_string file_name
+
+head    displays the first few lines of a file.
+         head file_name 
+
+tail    displays the last few lines of a file.
+         tail file_name 
+
+wc    counts the number of lines, words, and characters in a file.
+       wc file_name
+
+sort    sorts the lines in a file alphabetically.
+         sort file_name
+
+uniq    removes duplicate lines from a file.
+         uniq file_name
+
+
+[Processes]
+
+ps    List all running processes
+       ps      lists all running processes.
+       ps -a   lists all processes, including hidden processes.
+       ps -l   lists all processes with detailed information.
+
+kill    Kill a process
+
+top    Display a real-time list of running processes
+
+
+[Network commands]
+
+ping host_name         sends ICMP requests to the host name and checks its availability.
+
+tracert host_name      traces the path for packets traveling to the host name.
+
+nslookup host_name     finds the IP address of the host name.
+
+route                  displays the network route tables.
+
+arp                    shows a table with IP addresses converted into physical addresses.
+
+netstat                displays network connections and statistics.
+
+
+
+
 
 
 
