@@ -1,4 +1,54 @@
-
+============================    Git    ==============================
+set git user name
+    git config --global user.name "user_name"
+set git user email
+    git config --global user.email "user_email@example.com"
+*create new project repo
+    git init "project_name"
+*show git repo(branchs-commits-files) status
+    git status
+*show git user name or email
+    git config user.name
+    git config user.email
+* show git info
+    git config --list
+*add file to stage area
+    git add file_name
+*add multipl files
+    git add file1_name file2_name file3_name
+*unstage file from repo
+    git rm --cached file_name
+*commit
+    git commit -m"message"
+*add file from stage to repo
+    git commit -m"creat file_name"
+*show log
+    git log
+=====================================================================
+0- git status
+1-stage files
+    git add file_name
+2-commit changes
+    git commit -m "Commit_change message"
+----------------------------
+undo and return to pervous commit
+    git checkout perv_commit_hash
+----------------------------
+------  git branch  -------
+show git branches
+    git branch 
+    *current_branch
+work in master branch
+    git checkout master
+work in specific branch
+    git checkout branch_name
+=====================================================================
+Repo(local/remote)
+ls 
+ls -a
+cd project001
+touch file.ext
+=====================================================================
     git init - Initializes a new Git repository.
 
 git init
