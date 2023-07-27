@@ -1,0 +1,76 @@
+
+    git init - Initializes a new Git repository.
+
+git init
+
+    git add - Stages changes to tracked files.
+
+git add <file>
+
+    git commit - Creates a new commit from staged changes.
+
+git commit -m "Commit message"
+
+    git status - Shows the status of the working directory and staging area.
+
+git status
+
+    git log - Shows the commit history.
+
+git log
+
+    git diff - Shows the differences between two revisions of a file.
+
+git diff <old_revision> <new_revision>
+
+    git checkout - Switches to a different branch or revision.
+
+git checkout <branch_name>
+
+    git branch - Creates or lists branches.
+
+git branch
+
+    git merge - Merges changes from one branch into another.
+
+git merge <branch_name>
+
+    git push - Pushes changes to a remote repository.
+
+git push origin master
+
+    git pull - Pulls changes from a remote repository.
+
+git pull origin master
+
+    git clone - Clones a remote repository to your local machine.
+
+git clone <url>
+
+These are just a few of the most used Git commands. For more information, you can visit the Git documentation: https://git-scm.com/docs.
+
+Here are some additional commands that you may find useful:
+
+    git stash - Temporarily stores changes that you don't want to commit yet.
+
+git stash
+
+    git reset - Undoes changes that have been staged or committed.
+
+git reset <file>
+
+    git revert - Creates a new commit that reverses the changes made in an earlier commit.
+
+git revert <commit_hash>
+
+    git tag - Marks a specific point in the commit history.
+
+git tag <tag_name>
+
+    git remote - Manage remote repositories.
+
+git remote add origin <url>
+
+    git config - Configure Git to your liking.
+
+git config --global user.name "Your Name"
