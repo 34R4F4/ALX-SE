@@ -56,6 +56,11 @@ echo  create file and add context in it
 
 cat    Display the contents of a file
         cat file_name
+       clear file and add new multiple lines
+         cat "line1" "line2" "line3" > file.txt
+       keep file content and add new multiple lines
+         cat "line1" "line2" "line3" >> file.txt
+
 
 less file_name    displays the contents of a file one page at a time.
                    less file_name
