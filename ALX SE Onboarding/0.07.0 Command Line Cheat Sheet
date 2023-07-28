@@ -51,6 +51,9 @@ rm    Delete a file
 
 [text]
 
+echo  create file and add context in it
+       cat 'context_text' > file_name
+
 cat    Display the contents of a file
         cat file_name
 
