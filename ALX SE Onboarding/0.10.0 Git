@@ -1,0 +1,86 @@
+Sure, here are the answers to your questions:
+
+* **What is source code management?**
+
+Source code management (SCM) is the practice of tracking changes to source code over time. This allows you to revert to previous versions of your code, collaborate with others on the same project, and manage your code more effectively.
+
+* **What is Git?**
+
+Git is a distributed version control system (DVCS). This means that each user has a complete copy of the repository, which makes it very easy to collaborate on projects. Git is also very efficient at tracking changes, making it a popular choice for managing large codebases.
+
+* **What is GitHub?**
+
+GitHub is a web-based hosting service for Git repositories. It allows you to store your code online, share it with others, and collaborate on projects. GitHub is a popular choice for open source projects, but it can also be used for private projects.
+
+* **What is the difference between Git and GitHub?**
+
+Git is a software tool, while GitHub is a web-based service. Git is used to track changes to source code, while GitHub is used to store and manage Git repositories. You can use Git without GitHub, but GitHub makes it easy to collaborate on projects and share your code with others.
+
+* **How to create a repository?**
+
+To create a repository, you can use the `git init` command. This will create a new directory with a .git subdirectory, which contains all the metadata for your repository. You can then add files to your repository using the `git add` command. Once you have added all the files you want to track, you can commit your changes using the `git commit` command.
+
+* **What is a README?**
+
+A README is a text file that describes your project. It should include information about the project's purpose, how to use it, and any other relevant information. READMEs are a great way to help people get started with your project.
+
+* **How to write good READMEs?**
+
+Here are some tips for writing good READMEs:
+
+    * Keep it short and sweet.
+    * Use clear and concise language.
+    * Include screenshots or videos if possible.
+    * Use a consistent format.
+    * Update your README regularly.
+
+* **How to commit?**
+
+A commit is a snapshot of your project's source code at a specific point in time. When you commit your changes, you are saving them to your local repository. You can then push your commits to a remote repository, such as GitHub.
+
+* **How to write helpful commit messages?**
+
+Your commit messages should be clear and concise, and they should describe the changes you have made to your code. Here are some tips for writing helpful commit messages:
+
+    * Start with a short summary of the changes you have made.
+    * Include the reason for the changes.
+    * If you are fixing a bug, include the bug number.
+    * If you are adding new features, include a brief description of the features.
+
+* **How to push code?**
+
+To push your code to a remote repository, you can use the `git push` command. This will send your commits to the remote repository.
+
+* **How to pull updates?**
+
+To pull updates from a remote repository, you can use the `git pull` command. This will fetch the latest changes from the remote repository and merge them into your local repository.
+
+* **How to create a branch?**
+
+A branch is a copy of your repository that allows you to work on different versions of your code at the same time. To create a branch, you can use the `git branch` command.
+
+* **How to merge branches?**
+
+Once you have finished working on a branch, you can merge it back into your main branch. To merge a branch, you can use the `git merge` command.
+
+* **How to work as collaborators on a project?**
+
+To work as collaborators on a project, you will need to share your repository with them. You can do this by adding them as collaborators to your GitHub repository. Once they have access to your repository, they will be able to push and pull changes to your code.
+
+* **Which files should and which files should not appear in your repo?**
+
+The following files should be included in your repo:
+
+    * Source code files
+    * Config files
+    * Build scripts
+    * Tests
+
+The following files should not be included in your repo:
+
+    * Executable files
+    * Temporary files
+    * Build artifacts
+    * Personal data
+
+I hope this helps!
