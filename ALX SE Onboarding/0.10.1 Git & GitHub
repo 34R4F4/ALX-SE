@@ -1,0 +1,389 @@
+arafa@arafa-Inspiron-3542:~$ history
+    1  sudo apt update
+    2  sudo apt update
+    3  php --version
+    4  python --version
+    5  python3 --version
+    6  apache --version
+    7  apache2 --version
+    8  apt --help
+    9  apt --show
+   10  apt --contains
+   11  apt --list
+   12  net-tools --version
+   13  $ sudo apt install net-tools
+   14  sudo chmod 755 xampp-linux-x64-8.2.4-0-installer.run
+   15  sudo ./xampp-linux-x64-7.2.34-0-installer.run
+   16  sudo ./xampp-linux-x64-8.2.4-0-installer.run
+   17  sudo ./xampp-linux-*-installer.run
+   18  sudo /opt/lampp/lampp start~
+   19  cd /opt/lampp
+   20  sudo ./manager-linux.run
+   21  sudo ./manager-linux-64.run
+   22  cd
+   23  cd /opt/lampp
+   24  sudo ./manager-linux-64.run
+   25  sudo /opt/lampp/lampp start~
+   26  sudo /opt/lampp/lampp start
+   27  cd /opt/lampp
+   28  sudo ./manager-linux-64.run
+   29  sudo ./manager-linux-x64.run
+   30  python3 --version
+   31  whereis python3
+   32  sudo apt update
+   33  sudo apt install docker*
+   34  apt-cache policy qemu-kvm
+   35  docker
+   36  docker version
+   37  modprobe kvm
+   38  modprobe kvm_intel
+   39  kvm-ok
+   40  lsmod | grep kvm
+   41  lsmod | grep kvm
+   42  kvm_amd               167936  0
+   43  ccp                   126976  1 kvm_amd
+   44  kvm                  1089536  1 kvm_amd
+   45  /bin/python /home/arafa/Downloads/hello.py
+   46  python -V
+   47  python3 -V
+   48  whereis python3
+   49  /bin/python /home/arafa/Downloads/hello.py
+   50  /bin/python /home/arafa/Downloads/hello.py
+   51  /bin/python /home/arafa/Downloads/hello.py
+   52  /bin/python /home/arafa/Downloads/hello.py
+   53  /bin/python /home/arafa/Downloads/hello.py
+   54  /bin/python /home/arafa/Downloads/hello.py
+   55  source /home/arafa/Downloads/.venv/bin/activate
+   56  /home/arafa/Downloads/.venv/bin/python /home/arafa/Downloads/hello.py
+   57  /home/arafa/Downloads/.venv/bin/python /home/arafa/Downloads/hello.py
+   58  /home/arafa/Downloads/.venv/bin/python /home/arafa/Downloads/hello.py
+   59  /home/arafa/Downloads/.venv/bin/python /home/arafa/Downloads/hello.py
+   60  source /home/arafa/Downloads/.venv/bin/activate
+   61  source venv/bin/activate~
+   62  source /home/arafa/Downloads/.venv/bin/activate
+   63  /home/arafa/Downloads/.venv/bin/python /home/arafa/Downloads/hello.py
+   64  /home/arafa/Downloads/.venv/bin/python /home/arafa/Downloads/hello.py
+   65  /home/arafa/Downloads/.venv/bin/python /home/arafa/Downloads/hello.py
+   66  /home/arafa/Downloads/.venv/bin/python /home/arafa/Downloads/hello.py
+   67  /home/arafa/Downloads/.venv/bin/python /home/arafa/Downloads/hello.py
+   68  source /home/arafa/Downloads/.venv/bin/activate
+   69  /home/arafa/Downloads/.venv/bin/python /home/arafa/Downloads/hello.py
+   70  sudo chmod -R 777 /media/arafa/dev/sda6
+   71  usermod -G root mintroot
+   72  sudo chmod -R 777 /media/arafa/dev/sda6
+   73  ls
+   74  ls-1
+   75  ls -1
+   76  sudo chmod -R 777 /media/arafa/Data2
+   77  sudo chmod -R 777 /media/arafa/New Volume
+   78  sudo chmod -R 777 /media/arafa/NewVolume
+   79  sudo chmod -R 777 /media/arafa/New_Volume
+   80  ls
+   81  pwd
+   82  pwd -l
+   83  pwd -L
+   84  pwd -P
+   85  cd
+   86  ls
+   87  ls  -l
+   88  cd downloas
+   89  cd Downloas
+   90  cd /home/arafa/Downloas
+   91  cd -L
+   92  pwd
+   93  cd ..
+   94  ls
+   95  cd /arafa
+   96  cd home/arafa
+   97  cd /home/arafa
+   98  pwd
+   99  cd /arafa
+  100  cd ..
+  101  pwd
+  102  cd /home/arafa
+  103  pwd
+  104  cd 'arafa'
+  105  pwd
+  106  ls -la ..~
+  107  ls -la ..
+  108  date
+  109  free
+  110  exit
+  111  cd 'arafa'
+  112  cd /home/arafa
+  113  pwd
+  114  cd ~
+  115  pwd
+  116  cd help
+  117  cd -help
+  118  cd -@
+  119  pwd
+  120  cd -a
+  121  cd -A
+  122  cd -l
+  123  cd -L
+  124  ls
+  125  cd Music
+  126  pwd
+  127  ls
+  128  cd ..
+  129  pwd
+  130  cd Downloads
+  131  ls
+  132  ls -a
+  133  ls
+  134  cd ~
+  135  pwd
+  136  cd Downloads
+  137  ls
+  138  ls -l
+  139  l -a
+  140  ls -a
+  141  ls
+  142  l
+  143  ls
+  144  cd My Data
+  145  cd MyData
+  146  cd /MyData
+  147  cd My_Data
+  148  cd ALX
+  149  ls
+  150  cd ..
+  151  cd 'My Data'
+  152  ls
+  153  cp 'khalafarafa@gmail.com Firefox account recovery key.txt' ffox.txt
+  154  ls
+  155  cat ffox.txt
+  156  less ffox.txt
+  157  ping 10.10.10.1
+  158  tracert 10.10.10.1
+  159  tracer 10.10.10.1
+  160  tracert 10.10.10.1
+  161  nslookup http://abdo2023.com
+  162  route
+  163  arp
+  164  netatat
+  165  netstat
+  166  man mv
+  167  ping abdo2023.com~
+  168  ping abdo2023.com
+  169  ps
+  170  version
+  171  top
+  172  qt
+  173  qt5
+  174  qt4
+  175  qmake
+  176  sudo apt install qtchooser
+  177  qmake
+  178  cd uncompressed_folder
+  179  pwd
+  180  qmake
+  181  make
+  182  qmake
+  183  git clone git://github.com/goldendict/goldendict.git
+  184  $ git clone https://github.com/uav4geo/LibreTranslate --recurse-submodules
+  185  git clone https://github.com/uav4geo/LibreTranslate --recurse-submodules
+  186  cd LibreTranslate
+  187  sudo docker build -t libretranslate .
+  188  sudo docker build -t libretranslate
+  189  sudo docker build -t libretranslate.
+  190  sudo docker build -t libretranslate .
+  191  sudo docker run -it -p 5000:5000 libretranslate
+  192  git
+  193  git --version
+  194  git
+  195  git config
+  196  git config --global user.name "arafa"
+  197  git config --global user.email "khalafarafa@gmail.com"
+  198  git config user.name
+  199  git config user.email
+  200  git config --list
+  201  git bash
+  202  pwd
+  203  ls
+  204  ls -l
+  205  cd downloads
+  206  cd Downloads
+  207  cd ~
+  208  pwd
+  209  ls
+  210  clear
+  211  history
+  212  clear
+  213  git
+  214  clear
+  215  pwd
+  216  cd Downloads
+  217  ls
+  218  mkdir Git
+  219  ls
+  220  ls -l
+  221  cd Git
+  222  pwd
+  223  git init "project001"
+  224  ls
+  225  cd project001
+  226  pwd
+  227  ls -l
+  228  ls
+  229  ls -a
+  230  git status
+  231  ls -a
+  232  git status
+  233  history
+  234  git config
+  235  git config --global
+  236  history
+  237  git config user
+  238  git config --list
+  239  git
+  240  clear
+  241  touch index.html
+  242  ls
+  243  git status
+  244  git add index.html
+  245  git status
+  246  git commit m-"creat index.html"
+  247  ls
+  248  git commit m-"creat index.html"
+  249  git commit m-"create index.html"
+  250  pwd
+  251  git status
+  252  git commit m-"create index.html"
+  253  git commit m-"Create index.html"
+  254  git commit m-"Creat index.html"
+  255  commit help
+  256  commit -help
+  257  commit --help
+  258  git
+  259  git list
+  260  git --list
+  261  git --help
+  262  clear
+  263  git commit -m "Create "
+  264  git status
+  265  git log
+  266  touch app.js style.css
+  267  ls
+  268  git add app.js style.css
+  269  git status 
+  270  git commit m-"create app.js & style.css:
+  271  git commit m-"create app.js & style.css
+  272  git status 
+  273  git commit m-"create app.js & style.css"
+  274  git commit -m"create app.js & style.css"
+  275  git status 
+  276  git log
+  277  git commit -m""
+  278  git log
+  279  git"
+  280  git log
+  281  git status 
+  282  git add index.html app.js style.css
+  283  git status
+  284  git log
+  285  git status
+  286  git commit -m"create content in html css and js files"
+  287  git status
+  288  git 
+  289  git status
+  290  git add style.css
+  291  git status
+  292  git commit -m "set dark mode"
+  293  git status
+  294  git log
+  295  git status
+  296  git log
+  297  git checkout e7e743bdf6a4c1e62ed520d5294614dceb657870
+  298  clear
+  299  git branch
+  300  git status
+  301  git checkout master
+  302  git status
+  303  git branch
+  304  git status
+  305  clear
+  306  git branch dark
+  307  git status
+  308  git branch
+  309  git checkout dark
+  310  git status
+  311  git branch
+  312  git log
+  313  git status
+  314  git add index.html style.css
+  315  git status
+  316  git commit -m "Apply Dark Mode"
+  317  git status
+  318  git log
+  319  clear
+  320  history
+  321  git branch
+  322  git checkout master
+  323  git branch
+  324  git log
+  325  git status
+  326  git add style.css
+  327  git status
+  328  git commit m- "Light Mode"
+  329  git status
+  330  git branch
+  331  git status
+  332  git commit -m "Light Mode"
+  333  git status
+  334  git checkout dark
+  335  git branch
+  336  git checkout master
+  337  git branch
+  338  git status
+  339  git branch
+  340  git merge dark
+  341  git log
+  342  git status
+  343  cd
+  344  pwd
+  345  ls
+  346  cd Downloads/Git/project001
+  347  git status
+  348  git branch
+  349  git merge dark
+  350  clear
+  351  git remote -v
+  352  git remote add origin https://github.com/34R4F4/project001.git
+  353  git remote -v
+  354  git push -u origin master
+  355  pwd
+  356  ls
+  357  cd Downloads/Git/project001
+  358  ls
+  359  git log
+  360  cd Downloads/Git/project001
+  361  git shortlog
+  362  git branch
+  363  git pull origin master
+  364  git checkout dark
+  365  git branch
+  366  git status
+  367  git add index.html style.css
+  368  git status
+  369  git commit -m "add hr line in dark mode"
+  370  git status
+  371  git shortlog
+  372  git checkout master
+  373  git branch
+  374  git merge dark
+  375  git push -u origin master
+  376  LS
+  377  ls
+  378  git status
+  379  git add index.html
+  380  git status
+  381  git commit -m "add token"
+  382  git branch
+  383  git push -u origin master
+  384  git status
+  385  git st
+  386  git status
+  387  git branch
+  388  history
