@@ -5,11 +5,28 @@
 press [esc] to exit insert mode
 case-sensitive
 
-
 vi filename	edit filename starting at line 1 
 :		The cursor moves to bottom of screen whenever a colon
 :q		quit vi
 
+*** Moving the Cursor ***
 j		[down-arrow]  move cursor down one line 
 k		[up-arrow]  move cursor up one line 
 h		[Backspace] or [left-arrow] move cursor left one character 
+l		[space] or [right-arrow] move cursor right one character 
+0		move cursor to start of current line 
+$		move cursor to end of current line 
+w		move cursor to beginning of next word 
+b		move cursor back to beginning of preceding word 
+:0		[1G]  move cursor to first line in file 
+:n		[nG]  move cursor to line n 
+:$		[G]  move cursor to last line in file 
+
+ # You cannot go back more than one step
+u 	 	UNDO WHATEVER YOU JUST DID; a simple toggle
+
+*** Inserting or Adding Text ***
+i               text before cursor, until <Esc> hit
+
+
+
