@@ -1,0 +1,15 @@
+                       Vi
+                  (text editor)
+        command mode        insert mode
+
+press [esc] to exit insert mode
+case-sensitive
+
+
+vi filename	edit filename starting at line 1 
+:		The cursor moves to bottom of screen whenever a colon
+:q		quit vi
+
+j		[down-arrow]  move cursor down one line 
+k		[up-arrow]  move cursor up one line 
+h		[Backspace] or [left-arrow] move cursor left one character 
