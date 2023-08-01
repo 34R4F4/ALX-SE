@@ -1,0 +1,56 @@
+**What is vi?**
+
+Vi is a text editor that is used in Unix and Unix-like operating systems. It is a modal editor, which means that it has two different modes: command mode and insert mode. In command mode, you can give vi commands to edit the text. In insert mode, you can type text directly into the file.
+
+**Who is Bill Joy?**
+
+Bill Joy is an American computer scientist who is best known for co-developing the vi text editor and the Berkeley Software Distribution (BSD). He is also a co-founder of Sun Microsystems.
+
+**How to start and exit vi**
+
+To start vi, you can type `vi <filename>` in a terminal window. This will open the file `<filename>` in vi. To exit vi, you can type `:wq` or `ZZ`. The `:wq` command saves the file and quits vi. The `ZZ` command also saves the file, but it is a shortcut for `:w` and `:q`.
+
+**What are the command and insert modes, and how to switch from one to the other**
+
+The command mode is the default mode in vi. In command mode, you can give vi commands to edit the text. To enter insert mode, you can type the `i` key. In insert mode, you can type text directly into the file. To switch back to command mode, you can type the `Esc` key.
+
+**How to edit text**
+
+To edit text in vi, you can use the following commands:
+
+* `i` - Enter insert mode
+* `a` - Append text after the cursor
+* `A` - Append text to the end of the line
+* `o` - Open a new line below the current line
+* `O` - Open a new line above the current line
+* `x` - Delete the character under the cursor
+* `dd` - Delete the current line
+* `p` - Paste the last yanked (copied) text
+* `yy` - Yank (copy) the current line
+* `/string` - Search for the string `string`
+* `n` - Repeat the previous search
+* `u` - Undo the last change
+* `Ctrl+R` - Redo the last change
+
+**How to cut and paste lines**
+
+To cut and paste lines in vi, you can use the following commands:
+
+* `dd` - Delete the current line
+* `p` - Paste the last yanked (copied) text
+
+**How to search forward and backward**
+
+To search forward and backward in vi, you can use the following commands:
+
+* `/string` - Search for the string `string` forward
+* `?string` - Search for the string `string` backward
+
+**How to undo**
+
+To undo the last change in vi, you can type the `u` command. You can also undo multiple changes by typing `u` multiple times.
+
+**How to quit vi**
+
+To quit vi, you can type the `:wq` or `ZZ` command. The `:wq` command saves the file and quits vi. The `ZZ` command also saves the file, but it is a shortcut for `:w` and `:q`.
+
