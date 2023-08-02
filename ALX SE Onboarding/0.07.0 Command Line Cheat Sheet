@@ -10,6 +10,7 @@ cd     Change directory
          cd ..           #go up
          cd ../bin
          cd ~            #go home
+         cd -            #previous
 
 ls     List files and directories
          ls              
@@ -38,10 +39,16 @@ touch    Create a new file
 
 cp    Copy a file
        cp file_name new_file_name
+       cp file1 file2                  Copies the contents of file1 into file2. If file2 does not exist, it is created;
+       cp file1 dir1                   Copy the contents of file1 (into a file named file1) inside of directory dir1.
+       cp -R dir1 dir2                 copy dir1 and its contents in dir2
 
 mv    Move or rename a file
        mv file_name ../folders/new_folder      #move file_name, destination_path
        mv file_name new_file_name              #rename    crrent, new
+       mv file1 file2 dir1                     move file1 & file2 in dir1
+       rm file1 file2                          Delete file1 and file2. 
+       rm -r dir1 dir2                         Directories dir1 and dir2 are deleted along with all of their contents.
 
 rm    Delete a file
        rm file_name
