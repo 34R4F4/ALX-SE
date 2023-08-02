@@ -1,0 +1,71 @@
+# Mode Switching 
+    i – Enter insert mode.
+    Escape – Leave insert mode.
+
+# Moving the Cursor 
+    h – Move cursor left.
+    j – Move cursor down.
+    k – Move cursor up.
+    l – Move cursor right.
+
+You can also use search commands to quickly move the cursor.
+    / – Type a / followed by some text you want to find and press Enter to quickly move your cursor to the location of the text in the file.
+        For example, if you have the word iguana in your file, type /iguana and press Enter to quickly move the cursor there.
+    ? – Like /, but searches backwards.
+    f – Type an f followed by any character to quickly move the cursor to the next occurrence of the character on the current line.
+        For example, if you have the line “Hello world” on a line and your cursor is at the beginning of the line, type fo to move to the o in Hello. Type fo again to move to the o in world.
+    F – Like f, but searches backwards.
+    % – Jump between the nearest (), [], or {} characters on the line.
+
+Use these commands to quickly move to locations in the file:
+    H – Move cursor to highest (top) line in file.
+    M – Move cursor to middle line in file.
+    L – Move cursor to lowest (bottom) line in file.
+    #G – Type a number and then type G to go to that line in the file.
+        For example, type 4G and press Enter to move to the fourth line in the file.
+
+Moving between words:
+    w – Move forward a word.
+    #w – Move forward a number of words. For example, 2w moves forward two words.
+    b – Move back a word.
+    #b – Move back a number of words. For example, 3b moves back three words.
+    e – Move to end of the current word.
+
+# Copying & Pasting 
+Vi refers to the act of copying as “yanking.”
+    v – Press v and move the cursor to select a section of text.
+    y – Copy (yank) the selected text.
+    p – Paste at cursor.
+    x – Cuts the selected text. Cuts the character under the cursor if no text is selected
+    r – Type r and then type another character to replace the character under the cursor.
+
+# Combining Commands 
+    dw – Deletes the next word.
+    db – Deletes the previous word
+    de – Deletes to the end of the current word.
+    dL – Deletes all text below the cursor in the file.
+    d/unicorn – After pressing Enter, deletes all text between the cursor and the word “unicorn” in the current file.
+    dd – Deletes an entire line.
+
+# Repeat & Undo 
+    u – Undo.
+    . – The . repeats the last full command.  The insert command also functions as a command here.
+        For example, type iunicorn and press Escape. You can then use the . key to insert the word unicorn at the cursor.
+        
+
+#
+
+
+#
+
+#
+
+
+
+
+
+
+
+
+
+
