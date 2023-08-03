@@ -56,4 +56,54 @@ Ctrl+O		Run a command you found with Ctrl+R.
 Ctrl+G		Leave history searching mode without running a command.
 
 
+===================================================
+
+Sure, here is how you can create an executable bash file:
+
+1. Create a new file and save it with the `.sh` extension.
+2. In the file, add the following line:
+
+```
+#!/bin/bash
+```
+
+3. Add the code that you want to execute in the file.
+4. Save the file.
+5. Make the file executable by running the following command:
+
+```
+chmod +x <filename>
+```
+
+For example, if you create a file called `hello.sh` with the following contents:
+
+```
+#!/bin/bash
+
+echo "Hello, world!"
+```
+
+You can make the file executable by running the following command:
+
+```
+chmod +x hello.sh
+```
+
+Once you have made the file executable, you can run it by typing the following command in your terminal:
+
+```
+./hello.sh
+```
+
+The `./` prefix tells the shell to run the file as an executable.
+
+The `hello.sh` file will print the following output to the terminal:
+
+```
+Hello, world!
+```
+
+I hope this helps! Let me know if you have any other questions.
+
+
 
