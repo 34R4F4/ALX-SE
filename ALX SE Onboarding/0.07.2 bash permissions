@@ -1,0 +1,101 @@
+
+Read      (r)
+Write     (w)
+Execute   (x)
+
+#permissions
+chmod	  Changes the permissions of a file or directory.        chmod 644 myfile
+su	    Switches to a different user account.                  su user
+sudo	  Runs a command as root or another user.                sudo chmod 644 myfile
+chown	  Changes the owner of a file or directory.              chown user myfile
+chgrp	  Changes the group of a file or directory.              chgrp group myfile
+
+    
+==================================================================
+
+$ ls -l <file_name>
+
+[type]  [owner]  [group]  [all]
+
+type:
+  - (file)  
+  d (dir)  
+
+==================================================================
+
+#chmod
+
+$ chmod   <permission_value>   <file/dir_name>
+
+Value 	Meaning
+[File Permissions]
+777 	(rwxrwxrwx) 
+755 	(rwxr-xr-x) 
+700 	(rwx------) 
+666 	(rw-rw-rw-) 
+644 	(rw-r--r--) 
+600 	(rw-------) 
+[Directory Permissions]
+777 	(rwxrwxrwx) 
+755 	(rwxr-xr-x) 
+700 	(rwx------)
+
+
+==================================================================
+
+#Superuser
+
+$ su
+temporary access to the superuser's privileges. 
+start a superuser session
+To exit the superuser session, type exit
+
+$ sudo <command>
+execute a command as the superuser
+
+$ sudo -i
+log in as the root user
+
+
+
+==================================================================
+
+==================================================================
+
+==================================================================
+
+==================================================================
+
+==================================================================
+
+==================================================================
+
+==================================================================
+
+==================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
