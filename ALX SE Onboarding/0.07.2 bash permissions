@@ -57,10 +57,21 @@ $ sudo -i
 log in as the root user
 
 
+==================================================================
+
+#Changing File Ownership
+
+$ sudo chown you some_file
+change the owner of some_file from "me" to "you".
+we must have superuser privileges. so use $ sudo
 
 ==================================================================
 
-==================================================================
+#Changing Group Ownership
+
+chgrp new_group some_file
+changed the group ownership of some_file from its previous group to "new_group".
+must be the owner of the file or directory to perform a chgrp.
 
 ==================================================================
 
