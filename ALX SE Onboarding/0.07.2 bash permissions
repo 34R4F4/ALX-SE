@@ -75,6 +75,26 @@ must be the owner of the file or directory to perform a chgrp.
 
 ==================================================================
 
+id	        Displays the user ID (UID) and group ID (GID) of the current user.
+            $ id
+
+groups	    Displays the groups that the current user belongs to.
+            $ groups
+
+whoami	    Displays the name of the current user.
+            $ whoami
+
+adduser    	Creates a new user account.
+            $ adduser newuser
+
+useradd	    Creates a new user account, with the same options as adduser.
+            
+
+addgroup	Creates a new group.
+            $ addgroup newgroup
+
+
+
 ==================================================================
 
 ==================================================================
