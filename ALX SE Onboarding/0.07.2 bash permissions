@@ -102,7 +102,120 @@ addgroup	Creates a new group.
 ==================================================================
 
 ==================================================================
+Sure, here are the answers to your questions:
 
+**What do the commands chmod, sudo, su, chown, chgrp do?**
+
+* **chmod** is used to change the permissions of a file or directory.
+* **sudo** is used to run a command with root privileges.
+* **su** is used to change to the root user account.
+* **chown** is used to change the owner of a file or directory.
+* **chgrp** is used to change the group ownership of a file or directory.
+
+**Linux file permissions**
+
+Linux file permissions are represented by three sets of three digits, one for each of the following:
+
+* **Owner:** The user who created the file.
+* **Group:** The group that the file belongs to.
+* **Other:** Everyone else.
+
+Each digit represents a different permission:
+
+* **0:** No permission.
+* **1:** Read permission.
+* **2:** Write permission.
+* **3:** Read and write permission.
+* **4:** Execute permission.
+* **5:** Read and execute permission.
+* **6:** Write and execute permission.
+* **7:** Read, write, and execute permission.
+
+**How to represent each of the three sets of permissions (owner, group, and other) as a single digit**
+
+The permissions for each set can be represented as a single digit by adding the three digits together. For example, the permissions 777 for the owner, group, and other would be represented as the single digit 7.
+
+**How to change permissions, owner and group of a file**
+
+To change the permissions of a file, you can use the `chmod` command. The following command would change the permissions of the file `myfile` to read, write, and execute for the owner, read and execute for the group, and no permissions for others:
+
+```
+chmod 750 myfile
+```
+
+To change the owner of a file, you can use the `chown` command. The following command would change the owner of the file `myfile` to the user `root`:
+
+```
+chown root myfile
+```
+
+To change the group ownership of a file, you can use the `chgrp` command. The following command would change the group ownership of the file `myfile` to the group `users`:
+
+```
+chgrp users myfile
+```
+
+**Why can’t a normal user chown a file**
+
+A normal user cannot chown a file because they do not have the permission to change the ownership of a file. Only the root user or a user with sudo privileges can chown a file.
+
+**How to run a command with root privileges**
+
+To run a command with root privileges, you can use the `sudo` command. The following command would run the command `ls` with root privileges:
+
+```
+sudo ls
+```
+
+**How to change user ID or become superuser**
+
+To change user ID or become superuser, you can use the `su` command. The following command would change the user ID to the root user:
+
+```
+su root
+```
+
+**How to create a user**
+
+To create a user, you can use the `useradd` command. The following command would create a user named `newuser`:
+
+```
+useradd newuser
+```
+
+**How to create a group**
+
+To create a group, you can use the `groupadd` command. The following command would create a group named `newgroup`:
+
+```
+groupadd newgroup
+```
+
+**How to print real and effective user and group IDs**
+
+To print the real and effective user and group IDs, you can use the `id` command. The following command would print the real and effective user and group IDs of the current user:
+
+```
+id
+```
+
+**How to print the groups a user is in**
+
+To print the groups a user is in, you can use the `groups` command. The following command would print the groups that the user `newuser` is in:
+
+```
+groups newuser
+```
+
+**How to print the effective userid**
+
+To print the effective userid, you can use the `whoami` command. The following command would print the effective userid of the current user:
+
+```
+whoami
+```
+
+I hope this helps! Let me know if you have any other questions.
 ==================================================================
 
 
