@@ -1,0 +1,43 @@
+Code >>(compiler)>> program
+
+1- inclde library required
+2- write your code
+
+#print
+printf("text");
+
+#Variables
+
+type variable = value;
+or
+type variable;
+
+
+
+# C Data-Types
+
+-- numeric Variables
+int 		(-32767:32767)
+long		
+float		4bite
+double 	8bite
+
+-- text Variables
+char		single character
+				string of characters
+
+-- boolean Variables
+true		1
+false		0
+
+
+-- text Variables
+-- text Variables
+
+
+1- int (%i)  [-32,767 <---> 32,767] 
+int age = 25;
+printf("i am %i years", age);
+
+
+
