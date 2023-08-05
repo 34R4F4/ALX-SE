@@ -1,0 +1,30 @@
+#Edit > #Compile > #Run
+-----------------------
+$ vi hello.c
+$ gcc hello.c -o hello
+$ ./hello
+-----------------------
+
+=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=
+
+#1- Edit C text_file.c
+ex:     $ vi hello.c
+
+  hello.c
+  ~~~
+    #include<stdio.h>
+    
+    main()
+    {
+        printf("Hello World\n");
+    }
+  ~~~
+
+#2- Compile using gcc to make the text-file a program
+      $ gcc text_file.c -o program
+ex:   $ gcc hello.c -o hello
+
+#3- Run the program
+      $ ./program
+ex:   $ ./hello
+      
