@@ -39,5 +39,36 @@ false		0
 int age = 25;
 printf("i am %i years", age);
 
+Placeholder
+%i	int
+&d	decimil/int/bool
+%f	float
+%c	single char
+%s	string
+
+float
+%f 	>>	0.000000	.6
+%.nf	>>	0.0*n		.n
+%.4f 	>> 	0.0000
+
+
+char
+one char >> single quote
+char blood = 'O';
+
+string
+array of chars >> double quote
+char name[] = "Arafa";
+
+boolean
+first include library
+#include <stdbool.h>
+bool x = false;
+
+
+
+
+
+
 
 
