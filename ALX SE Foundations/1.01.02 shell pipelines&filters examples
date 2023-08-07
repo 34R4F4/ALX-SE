@@ -1,0 +1,180 @@
+
+
+* lists all files and directories in the current directory and filters out only the ones that contain the word "example".
+	ls | grep "example"
+
+*outputs the string "Hello, Earth!" by replacing the word "World" with "Earth" using the sed command.
+	echo "Hello, World!" | sed 's/World/Earth/'
+
+*displays the contents of the file "file.txt" in sorted order, removing any duplicate lines
+	cat file.txt | sort | uniq
+
+* retrieves a list of all running processes and filters out only the ones related to the "chrome" application.
+	ps aux | grep "chrome"
+
+*lists all files and directories in the current directory and counts the number of lines(files/directories)
+	ls | wc -l
+	ls -a | wc -l
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+==============================================================================
+Sure, here are some examples of commonly used pipeline commands:
+
+1. `ls | grep "example"` - lists all files and directories in the current directory and filters out only the ones that contain the word "example".
+
+2. `echo "Hello, World!" | sed 's/World/Earth/'` - outputs the string "Hello, Earth!" by replacing the word "World" with "Earth" using the `sed` command.
+
+3. `cat file.txt | sort | uniq` - displays the contents of the file "file.txt" in sorted order, removing any duplicate lines using the `sort` and `uniq` commands.
+
+4. `ps aux | grep "chrome"` - retrieves a list of all running processes and filters out only the ones related to the "chrome" application.
+
+5. `curl https://example.com | grep "title"` - retrieves the HTML content from the website "https://example.com" and filters out only the lines that contain the word "title".
+
+6. `ls | wc -l` - lists all files and directories in the current directory and counts the number of lines using the `wc` command (useful for finding out the total number of files/directories).
+
+7. `cat file1.txt file2.txt | grep "keyword" | wc -l` - concatenates the contents of "file1.txt" and "file2.txt", filters out only the lines with the word "keyword", and counts the number of lines containing the keyword.
+
+These are just a few examples of pipeline commands, and there are many more possibilities depending on the specific needs and tasks.
+==============================================================================
+Pipelines are a powerful way to chain together commands in order to perform complex tasks. Here are some examples of pipelines in Linux and PowerShell:
+
+**Linux**
+
+* `ls -l | grep file.txt`
+  * This command will list all the files in the current directory, and then pipe the output to the `grep` command, which will search for files that match the name `file.txt`.
+* `cat file.txt | wc -l`
+  * This command will read the contents of the file `file.txt` and pipe the output to the `wc` command, which will count the number of lines in the file.
+* `find . -type f -name "*.txt" | xargs cat`
+  * This command will find all the text files in the current directory and its subdirectories, and then pipe the output to the `cat` command, which will print the contents of the files to the console.
+
+**PowerShell**
+
+* `Get-Process | Where-Object {$_.ProcessName -eq "Notepad"`
+  * This command will get a list of all the processes running on the computer, and then pipe the output to the `Where-Object` cmdlet, which will filter the output to only include processes whose name is equal to "Notepad".
+* `Get-ChildItem *.txt | Sort-Object -Property LastWriteTime -Descending | Select-Object -First 10`
+  * This command will get a list of all the text files in the current directory, and then pipe the output to the `Sort-Object` cmdlet, which will sort the output by the last write time in descending order. The output will then be piped to the `Select-Object` cmdlet, which will only select the first 10 items in the output.
+* `Get-Service | Where-Object {$_.Status -eq "Running"} | Stop-Service`
+  * This command will get a list of all the services that are running on the computer, and then pipe the output to the `Where-Object` cmdlet, which will filter the output to only include services whose status is equal to "Running". The output will then be piped to the `Stop-Service` cmdlet, which will stop the services.
+
+These are just a few examples of how pipelines can be used in Linux and PowerShell. Pipelines can be used to perform a wide variety of tasks, and they can be a very powerful way to automate tasks.
+==============================================================================
