@@ -105,6 +105,8 @@ unsorted list of data with duplicate entries.
 	| pr | lpr	paginate and print the list.
 
 
+Viewing the contents of tar files ".tar.gz" or ".tgz"
+$ tar tzvf name_of_file.tar.gz | less
 
 
 
