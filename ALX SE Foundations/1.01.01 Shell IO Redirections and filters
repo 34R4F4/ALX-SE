@@ -1,0 +1,41 @@
+
+
+#Standard Output
+	redirect output to a file
+
+	'>'	To redirect standard output to a file
+		$ [command]	 >	 [file_name]
+		the result of command will saved in the file
+	    ex:		$ ls > file_list.txt
+		Each time the command repeated, file_list.txt is overwritten.
+
+   '>>' append the command output to file content
+		$ [command]	 >>	 [file_name]
+		ex:		$ ls >> file_list.txt
+		result added to the end of the file, each time the command is repeated
+		If the file does not exist, file will be created.
+
+#Standard Input
+	redirect command input from a file
+
+	'<'	take command input from a file instead of the keyboard
+		$ [command]	 >	 [file_name]
+		ex:		$ sort < file_list.txt
+
+		command can have both its input and output redirected.
+		ex:		$ sort < file_list.txt > sorted_file_list.txt
+
+
+#Pipelines
+	connect multiple commands together
+	the standard output of one command is fed into the standard input of another.
+
+	ex:		$ ls -l | less
+	the output of the ls command is fed into less. By using this "| less" 
+		
+
+
+
+
+
+
